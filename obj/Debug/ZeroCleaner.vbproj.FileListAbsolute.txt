@@ -1,0 +1,16 @@
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\bin\Debug\ZeroCleaner.exe.config
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\bin\Debug\ZeroCleaner.exe
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\bin\Debug\ZeroCleaner.pdb
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\bin\Debug\ZeroCleaner.xml
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\bin\Debug\MetroFramework.Design.dll
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\bin\Debug\MetroFramework.dll
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\obj\Debug\ZeroCleaner.MainForm.resources
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\obj\Debug\ZeroCleaner.Resources.resources
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\obj\Debug\ZeroCleaner.vbproj.GenerateResource.cache
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\obj\Debug\ZeroCleaner.vbproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\obj\Debug\ZeroCleaner.vbproj.CopyComplete
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\obj\Debug\ZeroCleaner.exe
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\obj\Debug\ZeroCleaner.xml
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\obj\Debug\ZeroCleaner.pdb
+C:\Users\utente\Desktop\Computer\Developing\Progetti\ZeroCleaner\ZeroCleaner\obj\Debug\ZeroCleaner.vbprojAssemblyReference.cache

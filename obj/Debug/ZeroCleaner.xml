@@ -1,0 +1,591 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ZeroCleaner
+</name>
+</assembly>
+<members>
+<member name="T:ZeroCleaner.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:ZeroCleaner.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:ZeroCleaner.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="P:ZeroCleaner.My.Resources.Resources._error">
+<summary>
+  Cerca una risorsa localizzata di tipo System.IO.UnmanagedMemoryStream simile a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:ZeroCleaner.My.Resources.Resources.button">
+<summary>
+  Cerca una risorsa localizzata di tipo System.IO.UnmanagedMemoryStream simile a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:ZeroCleaner.My.Resources.Resources.checkbox">
+<summary>
+  Cerca una risorsa localizzata di tipo System.IO.UnmanagedMemoryStream simile a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:ZeroCleaner.My.Resources.Resources.notice">
+<summary>
+  Cerca una risorsa localizzata di tipo System.IO.UnmanagedMemoryStream simile a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:ZeroCleaner.My.Resources.Resources.success">
+<summary>
+  Cerca una risorsa localizzata di tipo System.IO.UnmanagedMemoryStream simile a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:ZeroCleaner.My.Resources.Resources.tabbing">
+<summary>
+  Cerca una risorsa localizzata di tipo System.IO.UnmanagedMemoryStream simile a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="M:ZeroCleaner.Paths.profileAppDataRoaming">
+ <summary>
+ This method is only declared to make, making changes to all variables that require
+ the AppData Roaming path, easier.
+ </summary>
+ <returns>Returns the user profile AppData Roaming path</returns>
+ <remarks>ie: C:\Users\%USERPROFILE%\AppData\Roaming</remarks>
+</member>
+<member name="M:ZeroCleaner.Paths.profileAppDataLocal">
+ <summary>
+ User profile application data local path.
+ </summary>
+ <returns>AppData Local</returns>
+ <remarks>N/A</remarks>
+</member>
+<member name="M:ZeroCleaner.Paths.profileAppDataLocalLow">
+ <summary>
+ User profile application data local low path.
+ </summary>
+ <returns>Returns the user profile LocalLow AppData path</returns>
+ <remarks>N/A</remarks>
+</member>
+<member name="M:ZeroCleaner.Paths.system32Path">
+ <summary>
+ System32
+ </summary>
+ <returns>Returns System32 path</returns>
+ <remarks>N/A</remarks>
+</member>
+<member name="M:ZeroCleaner.Paths.programData">
+ <summary>
+ OS drive program data
+ </summary>
+ <returns>Returns the program data path</returns>
+ <remarks>N/A</remarks>
+</member>
+<member name="M:ZeroCleaner.Paths.osDriveWindows">
+ <summary>
+ OS drive path
+ </summary>
+ <returns>%OSDRIVE%\Windows</returns>
+ <remarks>ie. C:\Windows</remarks>
+</member>
+<member name="M:ZeroCleaner.Paths.osDrive">
+ <summary>
+ OS drive
+ </summary>
+ <returns>Drive letter OS is installed on</returns>
+ <remarks>Typically is C:\</remarks>
+</member>
+<member name="M:ZeroCleaner.Paths.mozillaFireFoxPaths(System.String)">
+ <summary>
+ This method is used to identify the FF paths via the unique profile name
+ </summary>
+ <param name="pathType">Path type of path, ie: cookies, downloads, formhistory, cache</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.InternetExplorerCookies">
+ <summary>
+ Path to Internet Explorer's cookies
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.InternetExplorerCookiesDomStore">
+ <summary>
+ Path to IE's cookies via DOM Store
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.InternetExplorerTemps">
+ <summary>
+ Path to Internet Explorer's temp files
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.InternetExplorerHistory">
+ <summary>
+ Path to Internet Explorer's history
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.InternetExplorerRecentlyTypedUrls">
+ <summary>
+ Path to Internet Explorer's recently typed URLs. See remarks.
+ </summary>
+ <remarks>IE's recently typed URLs are stored in the regstry, under HKCU.</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.InternetExplorerIndexDat_1">
+ <summary>
+ Path to one of Internet Explorer's index.dat files
+ </summary>
+ <remarks>File, not directory. Index.dat files are usually locked. So you'll need to unlock it before deleting.</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.InternetExplorerIndexDat_2">
+ <summary>
+ Path to one of Internet Explorer's index.dat files
+ </summary>
+ <remarks>File, not directory. Index.dat files are usually locked. So you'll need to unlock it before deleting.</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.InternetExplorerIndexDat_3">
+ <summary>
+ Path to one of Internet Explorer's index.dat files
+ </summary>
+ <remarks>File, not directory. Index.dat files are usually locked. So you'll need to unlock it before deleting.</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.InternetExplorerIndexDat_4">
+ <summary>
+ Path to one of Internet Explorer's index.dat files
+ </summary>
+ <remarks>File, not directory. Index.dat files are usually locked. So you'll need to unlock it before deleting.</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.InternetExplorerIndexDat_5">
+ <summary>
+ Path to one of Internet Explorer's index.dat files
+ </summary>
+ <remarks>File, not directory. Index.dat files are usually locked. So you'll need to unlock it before deleting.</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.InternetExplorerIndexDat_6">
+ <summary>
+ Path to one of Internet Explorer's index.dat files
+ </summary>
+ <remarks>File, not directory. Index.dat files are usually locked. So you'll need to unlock it before deleting.</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.GoogleChromeCookies">
+ <summary>
+ Path to Google Chrome's cookies. See Remarks.
+ </summary>
+ <remarks>This is NOT a directory and is instead a file with no extension. I think it's a SQLITE database.
+ Either way, Chrome must be closed in order to delete this file and clear the cookies.</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.GoogleChromeCookiesDBs">
+ <summary>
+ Path to Google Chrome's database cookies.
+ </summary>
+ <remarks>Search recursively - directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.GoogleChromeCookiesLocalStorage">
+ <summary>
+ Path to Google Chrome's local storage cookies.
+ </summary>
+ <remarks> Search non-recursively - directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.GoogleChromeCache">
+ <summary>
+ Path to Google Chrome's cache.
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.GoogleChromeInternetHistory">
+ <summary>
+ Path to Google Chrome's history directory. See Remarks.
+ </summary>
+ <remarks>The history is contained in four different files that all contain the word "History" and must be deleted
+ in order to clear all of chrome's history. They look something like "History Index 2011-00-journal", "History Index 2011-00", 
+ "History", "History-journal". It's best to loop through each file in the directory, non-recursively, and filter for "History".</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.MozillaFireFoxCookies">
+ <summary>
+ Mozilla Firefox cookies path
+ </summary>
+ <remarks>Path is file not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.MozillaFireFoxCookiesWebAppsStore">
+ <summary>
+ Mozilla Firefox
+ </summary>
+ <remarks>Path is file, not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.MozillaFireFoxDownloads">
+ <summary>
+ Mozilla Firefox Download history path
+ </summary>
+ <remarks>Path is file not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.MozillaFireFoxFormHistory">
+ <summary>
+ Mozilla Firefox form history path
+ </summary>
+ <remarks>Path is file not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.MozillaFireFoxCache">
+ <summary>
+ Mozilla Firefox cache path
+ </summary>
+ <remarks>Path is directory, not path</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.MozillaFirefoxSessionStore">
+ <summary>
+ Mozilla Firefox session store path
+ </summary>
+ <remarks>Path is a file, not a directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.MozillaFirefoxSessionStoreBackup">
+ <summary>
+ Mozilla Firefox session store backup path
+ </summary>
+ <remarks>Path is a file, not a directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.SafariCache">
+ <summary>
+ Safari cache path
+ </summary>
+ <remarks>File, not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.SafariHistoryPlist">
+ <summary>
+ Safari History list
+ </summary>
+ <remarks>File, not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.SafariHistoryLastSessionPlist">
+ <summary>
+ Safari last session path
+ </summary>
+ <remarks>File, not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.SafariHistoryDownloadsPlist">
+ <summary>
+ Safari History downloads list
+ </summary>
+ <remarks>File, not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.SafariHistory">
+ <summary>
+ Safari  History path
+ </summary>
+ <remarks>Directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.SafariWebpagePreviews">
+ <summary>
+ Safari Webpage Previews
+ </summary>
+ <remarks>Directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.OperaCache">
+ <summary>
+ Opera Cache
+ </summary>
+ <remarks>Search recursively</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.OperaOPCache">
+ <summary>
+ Opera OP Cache
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.OperaIconCache">
+ <summary>
+ Opera Icon Cache
+ </summary>
+ <remarks>Search recursively</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.OperaInternetHistory_1">
+ <summary>
+ Opera Internet History
+ </summary>
+ <remarks>Search recursively</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.OperaInternetHistory_2">
+ <summary>
+ Opera Internet History - DAT Files
+ </summary>
+ <remarks>File, not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.OperaInternetHistory_3">
+ <summary>
+ Opera Internet History
+ </summary>
+ <remarks>File, not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.OperaInternetHistory_4">
+ <summary>
+ Opera Internet History
+ </summary>
+ <remarks>File, not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.OperaInternetHistory_5">
+ <summary>
+ Opera Internet History
+ </summary>
+ <remarks>File, not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.OperaInternetHistory_6">
+ <summary>
+ Opera Internet History
+ </summary>
+ <remarks>File, not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.OperaCookies">
+ <summary>
+ Opera Cookies
+ </summary>
+ <remarks>File, not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.OperaWebsiteIcon">
+ <summary>
+ Opera Website Icons
+ </summary>
+ <remarks>Do not recurse</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.OperaCacheTempDownloads">
+ <summary>
+ Opera Temporary Downloads - Download History
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.uTorrentTempFiles">
+ <summary>
+ Main uTorrent temp files. Typically "resume.dat.old" and "settings.dat.old"
+ </summary>
+ <remarks>Filter with *.old</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.uTorrentDllImageCache">
+ <summary>
+ uTorrent DLL Image Cache
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.SunJavaCache">
+ <summary>
+ Sun Java Cache
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.SunJavaSystemCache">
+ <summary>
+ Sun Java System Cache
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.FileZillaRecentServers">
+ <summary>
+ FileZilla Recent Server List
+ </summary>
+ <remarks>File, not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.AvgAntivirus10Log">
+ <summary>
+ AVG Antivirus 10 log files.
+ </summary>
+ <remarks>Filter for .log and .xml files</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.AvgAntivirus10Backup">
+ <summary>
+ AVG Antivirus 10 backup files
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.AvgAntivirus10Misc">
+ <summary>
+ AVG Antivirus 10 misc files
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.AvgAntivirus10Temps">
+ <summary>
+ AVG Antivirus 10 temp files
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.MalwareBytesLogs">
+ <summary>
+ MalwareBytes log files
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.MalwareBytesQuarantineBackup">
+ <summary>
+ MalwareBytes backup files
+ </summary>
+ <remarks>Filter for "BACKUP" and "QUAR" files</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.WindowsDefenderHistoryQuick">
+ <summary>
+ Windows Defender quick history
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.WindowsDefenderHistoryResource">
+ <summary>
+ Windows Defender resource history
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.SpybotSdLogs">
+ <summary>
+ Spybot SD log files
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.SpybotSdIni">
+ <summary>
+ Spybot SD statistics ini file
+ </summary>
+ <remarks>This is a file, not a directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.SpybotSdBackups">
+ <summary>
+ Spybot SD Backup files
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.WindowsExplorerRecent">
+ <summary>
+ Windows Explorer recent files list
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.WindowsExplorerThumbnailCache">
+ <summary>
+ Windows Explorer thumbnail cache
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.WindowsTempFiles">
+ <summary>
+ Windows system temp
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.UserTemps">
+ <summary>
+ User temp files
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.ChkDskFileFragments">
+ <summary>
+ ChkDsk file fragments
+ </summary>
+ <remarks>Filter with *.chk</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.WindowsLogFiles">
+ <summary>
+ Windows log files
+ </summary>
+ <remarks>Filter with *.log</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.WindowsErrorReporting_1">
+ <summary>
+ Windows error reporting files
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.WindowsErrorReporting_2">
+ <summary>
+ Windows error reporting files
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.WindowsErrorReporting_3">
+ <summary>
+ Windows error reporting files
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.WindowsErrorReporting_4">
+ <summary>
+ Windows error reporting files
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.PrefetchData">
+ <summary>
+ Windows prefetch data
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.WindowsMediaPlayer">
+ <summary>
+ Windows Media Player temp files
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.QuickTimePlayerCache">
+ <summary>
+ Quick Time player cache
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.QuickTimerPlayer">
+ <summary>
+ QT session data
+ </summary>
+ <remarks>Handle as file, not directory</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.AdobeFlashPlayer">
+ <summary>
+ Adobe Flash Player
+ </summary>
+ <remarks>N/A</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.PaintNet">
+ <summary>
+ Paint.Net temp files
+ </summary>
+ <remarks>Recurse through each folder in this directory.</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.VisualStudio2010FileMRUList">
+ <summary>
+ VS 2010 File MRU List
+ </summary>
+ <remarks>HKCU</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.VisualStudio2010ProjectMRUList">
+ <summary>
+ VS 2010 Project MRU List
+ </summary>
+ <remarks>HKCU</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.VisualStudio2008FileMRUList">
+ <summary>
+ VS 2008 File MRU List
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.VisualStudio2008ProjectMRUList">
+ <summary>
+ VS 2008 Project MRU List
+ </summary>
+ <remarks>HKCU</remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.VisualStudio2005FileMRUList">
+ <summary>
+ VS 2005 File MRU List
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ZeroCleaner.Paths.VisualStudio2005ProjectMRUList">
+ <summary>
+ VS 2005 Project MRU List
+ </summary>
+ <remarks>HKCU</remarks>
+</member>
+</members>
+</doc>
